@@ -1,0 +1,29 @@
+
+# Raw datasets - keep original data out of GitHub
+data/raw/
+
+# Processed datasets (we will selectively add approved outputs later)
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Original Amazon dataset in project root
+/amazon_vfl_reviews.csv
